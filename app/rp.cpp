@@ -8,7 +8,7 @@
 void rp(text txt) {
     std::list<std::string>::iterator it = txt->myList->begin();
     int i, line = 0;
-    auto current = txt->myList->begin();
+    std::list<std::string>::iterator current = txt->myList->begin();
 /*ищем номер строки, в которой находится курсор*/
     while(current != txt->cursor->line) {
         current++;
