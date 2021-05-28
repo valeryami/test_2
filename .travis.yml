@@ -7,7 +7,7 @@ before_install:
 addons:
   sonarcloud:
     organization: "Jidim"
-    token: $SonarCloud
+    token: $Sonar_cloud
 
 script:
   - qmake
