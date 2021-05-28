@@ -10,8 +10,6 @@ void process_forward(text txt,
         return;
     }
 
-    /* Текст ненулевой длины должен содержать хотя бы одну строку */
-    assert(!txt->myList->empty());
 
     /* Стартуем с начальной строки текста */
     std::list<std::string>::iterator current = txt->myList->begin();

@@ -13,8 +13,8 @@ void remove_all(text txt)
         return;
     }
 
-    /* Текст ненулевой длины должен содержать хотя бы одну строку */
-    assert(!txt->myList->empty());
+//    /* Текст ненулевой длины должен содержать хотя бы одну строку */
+//    assert(!txt->myList->empty());
 
     /* Очищаем лист */
     txt->myList->clear();
