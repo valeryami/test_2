@@ -7,8 +7,7 @@
 
 void mnwbf(text txt){
     std::string line = *(txt->cursor->line);
-    auto current = txt->myList->begin();
-    while (current != txt->cursor->line) current++;
+    std::list<std::string>::iterator current = txt->cursor->line;
     int lenght, pos = txt->cursor->position;
 /*Ищем место в строке, где после пробела идёт не пробел*/
     while(line[0] != '\0') {
