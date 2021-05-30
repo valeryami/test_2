@@ -8,9 +8,9 @@
 TEST(rp, norm)
 {
     text txt = create_text();
-    txt->myList->push_back("line 0\n");
-    txt->myList->push_back("line 1\n");
-    txt->myList->push_back("line 2\n");
+    append_line(txt, "line 0\n");
+    append_line(txt, "line 1\n");
+    append_line(txt, "line 2\n");
 
     std::string output_text = "";
 
