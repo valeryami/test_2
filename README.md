@@ -1,6 +1,4 @@
 # test_2
- git submodule init
- git submodule update
 
 [![Build Status](https://travis-ci.com/Jidim/test_2.svg?branch=main)](https://travis-ci.com/Jidim/test_2)
 [![Coverage Status](https://coveralls.io/repos/github/Jidim/test_2/badge.svg?branch=main)](https://coveralls.io/github/Jidim/test_2?branch=main)
