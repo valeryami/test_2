@@ -10,10 +10,10 @@ addons:
     token: $SONAR_TOKEN
 
 script:
-  -sonar-scanner
   - qmake
   - make
   - ./tests/tests
+  - sonar-scanner
  
 after_success:
     - coveralls --root . -E ".*external.*" -E ".*tests.*"
