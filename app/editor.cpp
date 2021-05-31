@@ -100,6 +100,6 @@ int main()
         /* Если команда не известна */
         fprintf(stderr, "Unknown command: %s\n", cmd);
     }
-
+    free(txt->myList);
     return 0;
 }

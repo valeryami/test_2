@@ -18,4 +18,5 @@ void remove_all(text txt)
 
     /* Очищаем лист */
     txt->myList->clear();
+    free(txt);
 }
