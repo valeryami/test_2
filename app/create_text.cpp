@@ -8,7 +8,7 @@ text create_text()
 {
     text txt;
 
-    if ((txt = (_list *) malloc(sizeof(list))) == NULL)
+    if ((txt = (_list *) malloc(sizeof(_list))) == NULL)
     {
         fprintf(stderr, "Not enough memory!\n");
         exit(EXIT_FAILURE);
@@ -16,7 +16,7 @@ text create_text()
 
     txt = new _list;
 
-    if ((txt->cursor = (_crsr *) malloc(sizeof(crsr))) == NULL)
+    if ((txt->cursor = (_crsr *) malloc(sizeof(_crsr))) == NULL)
     {
         fprintf(stderr, "Not enough memory!\n");
         exit(EXIT_FAILURE);
