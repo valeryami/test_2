@@ -10,6 +10,7 @@ addons:
     token: $SONAR_TOKEN
 
 script:
+  -sonar-scanner
   - qmake
   - make
   - ./tests/tests
